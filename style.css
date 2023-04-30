@@ -48,7 +48,7 @@ h2 {
     font-size: 1em;
     color: #fff;
     pointer-events: none;
-    transition: .5s;
+    transition: .2s;
 }
 
 .input-box input:focus~label,
@@ -64,6 +64,7 @@ h2 {
     outline: none;
     font-size: 1em;
     color: #fff;
+    padding: 0 35px 0 5px;
 } 
 
 .input-box .icon {
@@ -73,3 +74,41 @@ h2 {
     font-size: 1.2em;
     line-height: 57px;
 }
+
+.remember-forgot {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-forgot label input {
+    margin-right: 3px ;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration:underline;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #000;
+    font-weight: 500;
+}
+
+
+
+
